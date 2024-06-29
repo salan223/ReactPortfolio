@@ -1,0 +1,34 @@
+[
+  
+  {
+    "role": "Computer Engineering ",
+    "organisation": "York University",
+    "startDate": "Sept, 2021",
+    "endDate": "Present",
+    "experiences": ["Relevant courses: Advanced OOP, Data Structures and Algorithm, Digital Logic Design, Computer Architecture ",
+     "Hardware: Microcontrollers, Circuit Analysis (DC/AC, RLC, Diodes, Transistors), Amplifiers, Rectifiers"],
+    "imageSrc": "history/yorku.png"
+  },
+  {
+    "role": "Front End Developer",
+    "organisation": "Freelancer",
+    "startDate": "Sept, 2021",
+    "endDate": "Present",
+    "experiences": ["Designed and developed websites with HTML5,          CSS3, and React.js with frameworks like Bootstrap", 
+    "Ensured intuitive user experience through effective UI/UX design."],
+    "imageSrc": "history/coding.png"
+  },
+  {
+    "role": "Electrical Engineering Support",
+    "organisation": "Hydro One Inc.",
+    "startDate": "May, 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Work with Network Management Officers to plan Outages",
+      "Request Pre-Outage inspection for stranded load for transformer outages",
+      "Assisiting Telecom Engineers with notifying customer for telecom outages",
+      "Analyze various station circuit diagrams to analyze Peaks and LTRs for outage assessment"
+    ],
+    "imageSrc": "history/hydro.png"
+  }
+]

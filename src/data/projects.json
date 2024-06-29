@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Self Plant Watering System",
+    "imageSrc": "assets/projects/plant.png",
+    "description": "I utilized my skills in electronics and programming to create a system that automatically waters plants based on soil moisture levels. The MOSFET sensor detects changes in moisture levels and triggers the Arduino Grove board to water the plant when the soil becomes too dry. I also implemented safety features to prevent over-watering and system failure.",
+    "skills": ["Matlab", "Arduino", "Hardware"],
+    "demo": "https://docs.google.com/document/d/19hzM1lY3fqlw0qfmif5WewQoTJ4SyoqyF1J535WXHkE/edit",
+    "source": "https://docs.google.com/document/d/19hzM1lY3fqlw0qfmif5WewQoTJ4SyoqyF1J535WXHkE/edit"
+  },
+  {
+    "title": "Reaction Time Game - FPGA Microcontroller",
+    "imageSrc": "assets/projects/de10.webp",
+    "description": "Developed a Verilog-based reaction time game on the DE10 Lite board. The game required players to match switches to illuminated LEDs to earn points within a 30-second countdown. Key features included clock division for precise timing, state management for game flow, and displaying scores and timers on HEX LEDs. Game initiation and reset were controlled using KEY0 and KEY1, while LED blinking sequences were generated using a Linear Feedback Shift Register for pseudo-random patterns.",
+    "skills": ["Verilog", "FPGA Design", "Digital Logic", "Hardware"],
+    "demo": "https://www.youtube.com/watch?v=36P7ywR8f-k&ab_channel=codeWithSalan",
+    "source": "https://github.com/salan223"
+  },
+  {
+    "title": "Personal Portfolio",
+    "imageSrc": "assets/projects/portfolio.png",
+    "description": "This is a project made to learn the advance functions of React JS, HTML and CSS implemented with various modules and UI/UX design as well.",
+    "skills": ["React", "Express", "Node", "UI/UX design", "Web Development"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/salan223"
+  }
+]

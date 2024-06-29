@@ -1,0 +1,62 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  color: var(--color-text);
+}
+
+.slider {
+  margin-top: 50px; /* Increase the top margin to move the slider down */
+  width: 100%;
+}
+
+.projectSlide {
+  display: flex !important;
+  justify-content: center;
+}
+
+.dots {
+  display: flex !important;
+  justify-content: center;
+  padding-top: 20px; /* Add padding to move dots below the slider */
+}
+
+.customDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: darkgray;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slick-dots li.slick-active .customDot {
+  background-color: yellow !important; /* Ensure the active dot changes to yellow */
+}
+
+.arrow {
+  font-size: 30px;
+  color: white;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  color: var(--color-primary);
+}
